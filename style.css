@@ -1,0 +1,83 @@
+.tittle {
+    font-size: 5vw;
+}
+
+.subTittle {
+    font-size: 4vw;
+}
+
+.font {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.left {
+    text-align: left;
+}
+
+.grass {
+    background-color: rgb(119, 206, 61);
+}
+
+.coolCanvas {
+    resize: both;
+    overflow: auto;
+    background-color: rgb(119, 206, 61);
+    border: 20px solid rgb(70, 70, 70);
+    position: fixed;
+    translate: 50%;
+    width: 60%;
+    height: auto;
+}
+
+table {
+    background-color: rgb(49, 167, 49);
+    border-radius: 10px;
+    border-spacing: 0;
+    border: 3px solid black;
+    empty-cells: hide;
+}
+
+td {
+    padding: 10px 20px;
+    border: 1px solid;
+    text-align: center;
+}
+
+td:first-child {
+    text-align: left;
+    font-weight: bold;
+}
+
+th {
+    padding: 10px 20px;
+    border: 1px solid;
+}
+
+tr:hover td {
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#color {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 4vw;
+    height: 4vw;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#color::-webkit-color-swatch {
+    border-radius: 1vw;
+    border: none;
+}
+
+#color::-moz-color-swatch {
+    border-radius: 1vw;
+    border: none;
+}
