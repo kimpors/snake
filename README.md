@@ -1,4 +1,4 @@
-# Snake-on-website
+# Snake
 Simple snake but snake can grow and also than bigger snake than faster
 
 Menu:
